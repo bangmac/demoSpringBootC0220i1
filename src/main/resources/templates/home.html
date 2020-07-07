@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+
+Hello C0220I1!
+
+<form action="/hello" method="post">
+
+    <input type="text" name="title" />
+    <input type="text" name="content" />
+
+    <button>Send</button>
+
+</form>
+
+
+<p th:text="${blog.title}"></p>
+<p th:text="${blog.content}"></p>
+
+</body>
+</html>
